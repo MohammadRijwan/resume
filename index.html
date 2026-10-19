@@ -3,20 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohammad Rijwan Khan - Lead & Senior Flutter Developer</title>
-  <meta name="description" content="Resume of Mohammad Rijwan Khan, a Lead and Senior Flutter Developer with 8+ years of software experience. Specialize in cross-platform mobile engineering.">
-  <link rel="stylesheet" href="style.css">
+  <title>Mohammad Rijwan Khan - Senior Flutter Developer | iOS · Android · Web | AI-Assisted Development</title>
+  <meta name="description" content="Resume of Mohammad Rijwan Khan, Senior Flutter Developer with nearly 7 years of experience building iOS, Android, and Web apps with AI coding agents (Claude, Cursor, Antigravity) and 14+ published apps.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 
-  <!-- Controls Bar -->
+  <!-- Controls Bar / Top Navigation -->
   <header class="controls-bar">
     <div class="controls-container">
-      <div class="brand">Mohammad Rijwan Khan</div>
+      <div class="brand-group">
+        <a href="#" class="brand">Mohammad Rijwan Khan</a>
+        <span class="badge-role">Senior Flutter Developer</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#published-apps">Published Apps <span class="nav-count">14+</span></a>
+        <a href="#education">Education & More</a>
+      </nav>
+
       <div class="actions">
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+        <a href="https://github.com/MohammadRijwan" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-icon" title="View GitHub Profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          <span class="btn-text">GitHub</span>
+        </a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme" title="Toggle Light/Dark Theme">
           <!-- Sun Icon -->
-          <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="4"></circle>
             <path d="M12 2v2"></path>
             <path d="M12 20v2"></path>
@@ -28,30 +49,40 @@
             <path d="m19.07 4.93-1.41 1.41"></path>
           </svg>
           <!-- Moon Icon -->
-          <svg id="moon-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg id="moon-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
           </svg>
         </button>
-        <button id="print-btn" class="btn btn-primary">
+        <a href="Mohammad Rijwan - Resume.pdf" download="Mohammad Rijwan - Resume.pdf" class="btn btn-primary" title="Download PDF Resume">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="6 9 6 2 18 2 18 9"></polyline>
-            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
-            <rect x="6" y="14" width="12" height="8"></rect>
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
           </svg>
-          Print PDF
-        </button>
+          <span>Download PDF</span>
+        </a>
       </div>
     </div>
   </header>
 
-  <!-- App Container -->
+  <!-- Main Container -->
   <main class="app-container">
     
-    <!-- Hero Section -->
-    <section class="hero">
-      <h1>Mohammad Rijwan Khan</h1>
-      <div class="subtitle">Lead & Senior Flutter Developer</div>
+    <!-- Hero / Header Section -->
+    <section class="hero" id="hero">
+      <h1 class="hero-title">Mohammad Rijwan Khan</h1>
+      
+      <div class="hero-subtitle">
+        <span class="hero-pill role-pill">Senior Flutter Developer</span>
+        <span class="hero-pill platform-pill">iOS · Android · Web</span>
+        <span class="hero-pill ai-pill">✨ AI-Assisted Development</span>
+      </div>
+
       <div class="contact-info">
+        <div class="contact-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Gwalior, Madhya Pradesh, India</span>
+        </div>
         <div class="contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
           <a href="mailto:mohammad.rijwan@gmail.com">mohammad.rijwan@gmail.com</a>
@@ -61,81 +92,171 @@
           <a href="tel:+918878519593">+91 8878519593</a>
         </div>
         <div class="contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-          <span>Gwalior, Madhya Pradesh, India</span>
-        </div>
-        <div class="contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
           <a href="https://github.com/MohammadRijwan" target="_blank" rel="noopener noreferrer">github.com/MohammadRijwan</a>
         </div>
       </div>
+
+      <!-- Quick Metrics Counters -->
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-number">~7</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100K+</div>
+          <div class="stat-label">Downloads (Backgammon Galaxy)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">14+</div>
+          <div class="stat-label">Published Store Apps</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">4 Devs</div>
+          <div class="stat-label">Team Leadership & Mentoring</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">AI Agents</div>
+          <div class="stat-label">Claude · Cursor · Antigravity</div>
+        </div>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#published-apps" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+          <span>Published Apps (14+)</span>
+        </a>
+        <a href="Mohammad Rijwan - Resume.pdf" download="Mohammad Rijwan - Resume.pdf" class="btn btn-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Download PDF Resume</span>
+        </a>
+      </div>
     </section>
 
-    <!-- Professional Summary -->
-    <section id="profile">
+    <!-- Summary Section -->
+    <section id="summary">
       <h2 class="section-title">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-        Professional Summary
+        Summary
       </h2>
-      <p class="summary-text">
-        Results-driven <strong>Lead & Senior Mobile Application Engineer</strong> with <strong>8+ years of experience</strong> in software development, specializing in the <strong>Flutter & Dart</strong> ecosystem. Proven track record of architecting, developing, and deploying high-performance cross-platform applications (iOS/Android) for global clients. Expert in clean architecture, advanced state management (Bloc, Riverpod), AI/ML integration (Gemini, TensorFlow, ML Kit), and offline-first databases. Strong technical leader experienced in mentoring agile teams, optimizing memory footprint, and establishing CI/CD pipelines to accelerate delivery cycles.
-      </p>
+      <div class="summary-card">
+        <div class="summary-card-header">
+          <span class="pulse-indicator"></span>
+          <span class="summary-kicker">EXECUTIVE SUMMARY · SENIOR MOBILE ARCHITECT</span>
+        </div>
+        <p class="summary-text">
+          Flutter developer with nearly <strong>7 years</strong> of experience building <strong>iOS, Android and Web</strong> apps. I built <strong class="hl-cyan">Backgammon Galaxy</strong>, an online backgammon app with <strong class="hl-indigo">100,000+ downloads</strong> on Google Play, and <strong class="hl-emerald">TopAll</strong>, a NEET/JEE prep app with <strong class="hl-indigo">10,000+ downloads</strong>. I build scalable Flutter apps using <strong class="hl-purple">AI coding agents (Claude, Cursor, Antigravity)</strong> and structured prompting, and I have led a team of <strong>4 developers</strong>. In total I have published <strong>14 apps</strong> on the App Store and Google Play.
+        </p>
+      </div>
     </section>
 
-    <!-- Core Skills -->
+    <!-- Skills Section -->
     <section id="skills">
       <h2 class="section-title">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-        Core Expertise & Technical Skills
+        Skills
       </h2>
       <div class="skills-grid">
+        
+        <!-- Mobile -->
         <div class="skills-category">
-          <h3>Frameworks & Languages</h3>
+          <div class="category-header">
+            <div class="cat-icon mobile-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+            </div>
+            <h3>Mobile</h3>
+          </div>
           <div class="skills-tags">
-            <span class="tag">Flutter</span>
-            <span class="tag">Dart</span>
-            <span class="tag">Kotlin</span>
-            <span class="tag">Java</span>
-            <span class="tag">Android SDK</span>
-            <span class="tag">SQL</span>
+            <span class="tag tag-featured">Flutter</span>
+            <span class="tag tag-featured">Dart</span>
           </div>
         </div>
+
+        <!-- AI -->
+        <div class="skills-category highlight-border">
+          <div class="category-header">
+            <div class="cat-icon ai-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10v4a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-4a6 6 0 1 0-12 0v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-4A10 10 0 0 1 12 2z"></path><circle cx="8" cy="13" r="1"></circle><circle cx="16" cy="13" r="1"></circle></svg>
+            </div>
+            <h3>AI</h3>
+          </div>
+          <div class="skills-tags">
+            <span class="tag tag-accent">AI coding agents (Claude, Cursor, Antigravity)</span>
+            <span class="tag">Structured Prompting (features, refactoring, code review, test generation)</span>
+            <span class="tag">Gemini API</span>
+            <span class="tag">ML Kit</span>
+          </div>
+        </div>
+
+        <!-- Architecture and State -->
         <div class="skills-category">
-          <h3>Architecture & State</h3>
+          <div class="category-header">
+            <div class="cat-icon arch-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <h3>Architecture and State</h3>
+          </div>
           <div class="skills-tags">
             <span class="tag">Clean Architecture</span>
             <span class="tag">MVVM</span>
-            <span class="tag">SOLID Principles</span>
+            <span class="tag">Bloc/Cubit</span>
             <span class="tag">Riverpod</span>
-            <span class="tag">Bloc (Cubit)</span>
             <span class="tag">Provider</span>
             <span class="tag">GetX</span>
           </div>
         </div>
+
+        <!-- Backend and Data -->
         <div class="skills-category">
-          <h3>Data & Cloud Services</h3>
+          <div class="category-header">
+            <div class="cat-icon db-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            </div>
+            <h3>Backend and Data</h3>
+          </div>
           <div class="skills-tags">
-            <span class="tag">Firebase RTDB</span>
+            <span class="tag">Firebase</span>
             <span class="tag">PostgreSQL</span>
             <span class="tag">Isar DB</span>
-            <span class="tag">ObjectBox</span>
             <span class="tag">SQLite</span>
-            <span class="tag">Firebase Auth/Cloud</span>
-            <span class="tag">AWS Services</span>
           </div>
         </div>
+
+        <!-- Integrations -->
         <div class="skills-category">
-          <h3>Advanced Integrations</h3>
+          <div class="category-header">
+            <div class="cat-icon api-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+            </div>
+            <h3>Integrations</h3>
+          </div>
           <div class="skills-tags">
-            <span class="tag">Gemini AI / LLMs</span>
-            <span class="tag">TensorFlow Lite</span>
-            <span class="tag">ML Kit & Vision</span>
-            <span class="tag">OpenCV</span>
-            <span class="tag">BLE / IoT</span>
-            <span class="tag">MUX Video API</span>
-            <span class="tag">Stripe, GPay, Apple Pay</span>
+            <span class="tag">MUX video</span>
+            <span class="tag">Stripe</span>
+            <span class="tag">Google Pay</span>
+            <span class="tag">Apple Pay</span>
+            <span class="tag">In-App Purchases</span>
+            <span class="tag">Bluetooth (BLE)</span>
+            <span class="tag">WebSockets</span>
           </div>
         </div>
+
+        <!-- Tools -->
+        <div class="skills-category">
+          <div class="category-header">
+            <div class="cat-icon tool-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+            </div>
+            <h3>Tools</h3>
+          </div>
+          <div class="skills-tags">
+            <span class="tag">Git</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">App Store releases</span>
+            <span class="tag">Google Play releases</span>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -143,253 +264,537 @@
     <section id="experience">
       <h2 class="section-title">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
-        Professional Experience
+        Experience
       </h2>
       <div class="timeline">
         
-        <!-- Job 1 -->
-        <div class="timeline-item">
+        <!-- Job 1: Backgammon Galaxy -->
+        <div class="timeline-item featured-timeline-item">
           <div class="timeline-marker"></div>
-          <div class="timeline-header">
-            <div>
-              <span class="role-title">Lead Flutter Developer</span>
-              <span class="company-name">@ VVT Solution Pvt Ltd</span>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="title-company">
+                <span class="role-title">Freelance Flutter Developer</span>
+                <span class="company-name">Backgammon Galaxy</span>
+                <span class="employment-badge freelance">Remote, Freelance</span>
+              </div>
+              <span class="timeline-date">Oct 2024 – Oct 2026</span>
             </div>
-            <span class="timeline-date">Nov 2023 – Present</span>
-          </div>
-          <div class="timeline-body">
-            <ul>
-              <li><strong>Team Leadership & Architecture:</strong> Spearhead cross-platform application design and development utilizing Flutter and Dart. Lead sprint planning, architectural design reviews, and establish code quality guidelines for the team.</li>
-              <li><strong>AI Integration:</strong> Designed and implemented an AI-Powered Intelligent Essay Grading System using natural language processing (NLP) algorithms and Google Gemini API, cutting manual evaluation time by 85%.</li>
-              <li><strong>Scalability & Optimization:</strong> Scaled backend service layer integrations (Firebase, AWS, and custom microservices) to support an Enterprise-Level Test Prep Platform with 100,000+ active users.</li>
-              <li><strong>Offline Capability:</strong> Built the <em>TopAll AI NEET/JEE Prep App</em>, achieving 99.9% crash-free sessions. Implemented offline caching via Isar DB, accelerating app startup and resource loading by 40%.</li>
-              <li><strong>Mentorship:</strong> Mentor a team of 4 junior and mid-level developers, conducting code reviews and onboarding sessions.</li>
-            </ul>
+            
+            <div class="timeline-body">
+              <ul>
+                <li>
+                  Built the Backgammon Galaxy app from scratch in Flutter, with one scalable codebase for iOS, Android and Web: an online platform to play live backgammon, chat and review matches. <strong>100,000+ downloads</strong> on Google Play with a <strong>4.2 rating</strong>. 
+                  <div class="timeline-store-row">
+                    <span class="timeline-store-label">Live Platform Links:</span>
+                    <a href="https://apps.apple.com/app/backgammon-galaxy-play-online/id1552085732" target="_blank" rel="noopener noreferrer" class="micro-store-btn ios">
+                      <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.84c.64-.78 1.08-1.86.96-2.95-1.01.04-2.22.68-2.92 1.5-.59.69-1.12 1.79-.98 2.87 1.13.09 2.3-.64 2.94-1.42z"/></svg>
+                      <span>iOS App</span>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.backgammongalaxy.app" target="_blank" rel="noopener noreferrer" class="micro-store-btn android">
+                      <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.347-.357-.557-.866-.557-1.439V3.253c0-.573.21-1.082.556-1.439zm11.3 11.302l2.368 2.368-12.062 6.942 9.694-9.31zm0-2.232L5.215 1.574l12.062 6.942-2.368 2.368zm1.096 1.116l3.393 1.953c.895.516.895 1.356 0 1.872l-3.393 1.953-2.164-2.164 2.164-2.164z"/></svg>
+                      <span>Google Play</span>
+                    </a>
+                    <a href="https://backgammongalaxy.com" target="_blank" rel="noopener noreferrer" class="micro-store-btn web">
+                      <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                      <span>Web Platform</span>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  Worked with AI coding agents (Claude, Cursor, Antigravity) using structured prompts to build and refactor features, review code and generate tests faster, while keeping the codebase clean and scalable.
+                </li>
+                <li>
+                  Added Keycloak social login, a custom XMPP chat plugin, a GNU ID / XGID board converter, Match Analysis with blunder detection, Setup and Saved Position, and Social Chat.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <!-- Job 2 -->
+        <!-- Job 2: VVT Solution Pvt Ltd -->
         <div class="timeline-item">
           <div class="timeline-marker"></div>
-          <div class="timeline-header">
-            <div>
-              <span class="role-title">Senior Flutter Developer</span>
-              <span class="company-name">@ Brainium Information Technologies</span>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="title-company">
+                <span class="role-title">Lead Flutter Developer</span>
+                <span class="company-name">VVT Solution Pvt Ltd</span>
+                <span class="employment-badge contract">Contract</span>
+              </div>
+              <span class="timeline-date">Nov 2023 – Oct 2024</span>
             </div>
-            <span class="timeline-date">Jun 2022 – Oct 2023</span>
-          </div>
-          <div class="timeline-body">
-            <ul>
-              <li><strong>UI Engineering:</strong> Translated high-fidelity designs from Figma/Adobe XD into pixel-perfect, modular, and reusable Flutter widgets.</li>
-              <li><strong>Video Streaming:</strong> Led end-to-end engineering of a live video streaming application utilizing the MUX API, incorporating customized video buffering and data saving algorithms.</li>
-              <li><strong>Payments & Monetization:</strong> Integrated Google Pay, Apple Pay, and In-App Purchase (IAP) architectures, helping boost booking conversion rate by 18%.</li>
-              <li><strong>Architecture Standard:</strong> Championed the transition from ad-hoc MVC state management to Clean Architecture combined with MVVM and Provider patterns across three core company products.</li>
-            </ul>
+            <div class="timeline-body">
+              <ul>
+                <li>
+                  Built and published 14 iOS and Android apps for coaching institutes and schools (list below).
+                </li>
+                <li>
+                  Built the TopAll NEET/JEE prep app (Flutter, Firebase) with mock tests, performance charts and automatic question paper creation. Offline storage with Isar DB made startup and loading about 40% faster.
+                </li>
+                <li>
+                  Led a team of 4 developers (sprint planning, code review, architecture decisions) and looked after the backend (Firebase) for a test-prep platform with 100,000+ users.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <!-- Job 3 -->
+        <!-- Job 3: Brainium Information Technologies -->
         <div class="timeline-item">
           <div class="timeline-marker"></div>
-          <div class="timeline-header">
-            <div>
-              <span class="role-title">Flutter Development Specialist</span>
-              <span class="company-name">@ Invizzo Cloud Network</span>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="title-company">
+                <span class="role-title">Software Developer</span>
+                <span class="company-name">Brainium Information Technologies</span>
+              </div>
+              <span class="timeline-date">Jun 2022 – Oct 2023</span>
             </div>
-            <span class="timeline-date">Nov 2021 – Aug 2022</span>
-          </div>
-          <div class="timeline-body">
-            <ul>
-              <li><strong>Project Management:</strong> Architected and delivered 5 high-impact customer applications from scratch, taking complete ownership of 2 key projects.</li>
-              <li><strong>E-Commerce System:</strong> Built Conaxo Business, a state-of-the-art e-commerce solution with dynamic layout configurations, virtual/physical items support, and high-performance list search.</li>
-              <li><strong>State Management:</strong> Implemented Riverpod state management to handle complex user carts, local caching, and real-time checkout flows.</li>
-              <li><strong>Deployment:</strong> Successfully automated app builds and published multiple releases directly to the App Store and Google Play Store.</li>
-            </ul>
+            <div class="timeline-body">
+              <ul>
+                <li>
+                  Built a live video streaming app using the MUX API, with data-saving options for users.
+                </li>
+                <li>
+                  Added Google Pay, Apple Pay and In-App Purchases, which increased booking conversion by 18%.
+                </li>
+                <li>
+                  Moved three apps from MVC to Clean Architecture with MVVM and Provider, and turned Figma and Adobe XD designs into reusable Flutter widgets.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <!-- Job 4 -->
+        <!-- Job 4: Invizzo Cloud Network -->
         <div class="timeline-item">
           <div class="timeline-marker"></div>
-          <div class="timeline-header">
-            <div>
-              <span class="role-title">Flutter Developer</span>
-              <span class="company-name">@ Shree Sai Information</span>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="title-company">
+                <span class="role-title">Flutter Developer (Freelance)</span>
+                <span class="company-name">Invizzo Cloud Network</span>
+              </div>
+              <span class="timeline-date">Sep 2021 – Jun 2022</span>
             </div>
-            <span class="timeline-date">Dec 2019 – Oct 2021</span>
-          </div>
-          <div class="timeline-body">
-            <ul>
-              <li><strong>Medical & IoT Ecosystem:</strong> Engineered a multi-role Medical Device & Patient Management System connecting Patients (via mobile app for consultations and implanted device control) with Physicians & Manufacturers (via tablet portal to monitor device telemetry, expirations, and hospital allocations under HIPAA guidelines).</li>
-              <li><strong>Custom Plugins:</strong> Built native plugins using MethodChannels in Kotlin and Swift to interface with low-level background sync libraries.</li>
-              <li><strong>Real-time Systems:</strong> Configured WebSockets and Firebase Realtime Database to push live seat availability and validation updates on ticket booking platforms.</li>
-            </ul>
+            <div class="timeline-body">
+              <ul>
+                <li>
+                  Built 5 customer apps from scratch and fully owned 2 of them, including Conaxo Business, an e-commerce app using Riverpod for cart and checkout.
+                </li>
+                <li>
+                  Published releases to the App Store and Google Play.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <!-- Job 5 -->
+        <!-- Job 5: Shree Sai Information -->
         <div class="timeline-item">
           <div class="timeline-marker"></div>
-          <div class="timeline-header">
-            <div>
-              <span class="role-title">Software Engineer (Android & Java)</span>
-              <span class="company-name">@ Nexus Software Solutions</span>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="title-company">
+                <span class="role-title">Flutter Developer</span>
+                <span class="company-name">Shree Sai Information</span>
+              </div>
+              <span class="timeline-date">Dec 2019 – Aug 2021</span>
             </div>
-            <span class="timeline-date">Jan 2018 – Nov 2019</span>
+            <div class="timeline-body">
+              <ul>
+                <li>
+                  Built MedTack, a medical device and patient management app (patient app plus doctor and manufacturer tablet app) following HIPAA rules.
+                </li>
+                <li>
+                  Used WebSockets and Firebase Realtime Database for live seat availability in ticket booking apps.
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="timeline-body">
-            <ul>
-              <li><strong>Native Development:</strong> Designed and developed native Android applications utilizing Java, Android SDK, and SQLite databases.</li>
-              <li><strong>Modernization:</strong> Successfully migrated legacy modules to Kotlin and implemented clean MVVM patterns, resulting in a 15% reduction in size and 25% fewer crashes.</li>
-              <li><strong>Integrations:</strong> Integrated Google Maps API, real-time location tracking services, and Retrofit client for robust REST API integrations.</li>
-            </ul>
+        </div>
+
+        <!-- Job 6: Indian Army -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="title-company">
+                <span class="role-title">Assistant Accountant</span>
+                <span class="company-name">Indian Army</span>
+              </div>
+              <span class="timeline-date">Feb 2015 – Dec 2019</span>
+            </div>
           </div>
         </div>
 
       </div>
     </section>
 
-    <!-- Projects Portfolio -->
-    <section id="projects">
-      <h2 class="section-title">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-        Key Projects Showcase
-      </h2>
-      <div class="projects-grid">
+    <!-- Published Apps Section (all built with Flutter) -->
+    <section id="published-apps">
+      <div class="section-header-row">
+        <div>
+          <h2 class="section-title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+            Published Apps (all built with Flutter)
+          </h2>
+          <p class="section-desc">14+ live apps built and published to the App Store and Google Play.</p>
+        </div>
+      </div>
+
+      <div class="published-apps-grid">
         
-        <!-- Project 1 -->
-        <div class="project-card">
-          <h3>AI-Powered Intelligent Essay Grading System</h3>
-          <p>An innovative AI-driven evaluation app leveraging natural language processing (NLP) and machine learning algorithms (Gemini APIs) to automatically grade written essays. Eliminates grading bias and offers instant analytical feedback to students.</p>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="project-card">
-          <h3>TopAll AI - Test Prep App</h3>
-          <p>Online test prep ecosystem serving over 100,000 NEET/JEE aspirants. Includes fast-loading custom mock test interfaces, detailed visual analytics, predictive grading, and automated question paper generation under high concurrent loads.</p>
-          <div class="project-meta">
-            <a class="project-link" href="https://play.google.com/store/apps/details?id=com.topall.ai" target="_blank" rel="noopener noreferrer">Play Store</a>
-            <a class="project-link" href="https://apps.apple.com/in/app/topall-ai-neet-jee-prep-app/id6747238960" target="_blank" rel="noopener noreferrer">App Store</a>
+        <!-- App 1: Backgammon Galaxy (Flagship) -->
+        <div class="app-card featured-app-card">
+          <div class="app-card-top">
+            <div class="app-badge-flagship">Flagship App · 100,000+ Downloads</div>
+            <div class="rating-pill">⭐ 4.2 Rating</div>
+          </div>
+          <div class="app-main-info">
+            <div class="app-avatar bg-galaxy">BG</div>
+            <div>
+              <h3>Backgammon Galaxy: Play Online</h3>
+              <p class="app-type">Live multiplayer board game & AI analysis</p>
+            </div>
+          </div>
+          <p class="app-desc">
+            One scalable codebase for iOS, Android and Web: play live backgammon, chat, and review matches with blunder detection.
+          </p>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/app/backgammon-galaxy-play-online/id1552085732" target="_blank" rel="noopener noreferrer" class="store-badge ios">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.84c.64-.78 1.08-1.86.96-2.95-1.01.04-2.22.68-2.92 1.5-.59.69-1.12 1.79-.98 2.87 1.13.09 2.3-.64 2.94-1.42z"/></svg>
+              <span>iOS</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.backgammongalaxy.app" target="_blank" rel="noopener noreferrer" class="store-badge android">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.347-.357-.557-.866-.557-1.439V3.253c0-.573.21-1.082.556-1.439zm11.3 11.302l2.368 2.368-12.062 6.942 9.694-9.31zm0-2.232L5.215 1.574l12.062 6.942-2.368 2.368zm1.096 1.116l3.393 1.953c.895.516.895 1.356 0 1.872l-3.393 1.953-2.164-2.164 2.164-2.164z"/></svg>
+              <span>Android</span>
+            </a>
+            <a href="https://backgammongalaxy.com" target="_blank" rel="noopener noreferrer" class="store-badge web">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              <span>Web</span>
+            </a>
           </div>
         </div>
 
-        <!-- Project 3 -->
-        <div class="project-card">
-          <h3>VVT Coaching - Test Prep Platform</h3>
-          <p>Enterprise-grade coaching and test preparation ecosystem designed for large educational institutes. Features advanced test generation algorithms and machine learning models for predictive performance analysis.</p>
-          <div class="project-meta">
-            <a class="project-link" href="https://play.google.com/store/apps/details?id=com.vvt.coaching" target="_blank" rel="noopener noreferrer">Play Store</a>
-            <a class="project-link" href="https://apps.apple.com/in/app/vvt-coaching/id6578447265" target="_blank" rel="noopener noreferrer">App Store</a>
+        <!-- App 2: TopAll AI Prep -->
+        <div class="app-card featured-app-card">
+          <div class="app-card-top">
+            <div class="app-badge-featured">10,000+ Downloads</div>
+          </div>
+          <div class="app-main-info">
+            <div class="app-avatar bg-topall">TA</div>
+            <div>
+              <h3>TopAll: AI NEET & JEE Prep</h3>
+              <p class="app-type">Mock tests, charts & auto question paper creation</p>
+            </div>
+          </div>
+          <p class="app-desc">
+            Offline storage with Isar DB made startup and loading about 40% faster.
+          </p>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/topall-ai-neet-jee-prep-app/id6747238960" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.topall.ai" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
           </div>
         </div>
 
-        <!-- Project 4 -->
-        <div class="project-card">
-          <h3>IoT-Enabled Medical Device & Patient Management System</h3>
-          <p>Multi-role mobile and tablet ecosystem for managing implanted devices. Patient mobile app tracks device health, handles device operations, and facilitates secure physician consulting. Tablet app enables doctors and device manufacturers to track patient allocations, device expirations, and hospital distributions.</p>
+        <!-- App 3: VVT Coaching -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-vvt">VC</div>
+            <div>
+              <h3>VVT Coaching</h3>
+              <p class="app-type">Coaching Institute App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/vvt-coaching/id6578447265" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.coaching" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
         </div>
 
-        <!-- Project 5 -->
-        <div class="project-card">
-          <h3>Fantastix - Event Booking App</h3>
-          <p>Enterprise-scale mobile ticketing and reservation application. Built with custom 2D canvas seat-selection layouts, real-time Firebase booking triggers, and Apple Pay/Google Pay checkout integrations.</p>
+        <!-- App 4: Yes Entrance Academy -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-yes">YE</div>
+            <div>
+              <h3>Yes Entrance Academy</h3>
+              <p class="app-type">Coaching Institute App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/yes-entrance-academy/id6503923067" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.yesentrance" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
         </div>
 
-        <!-- Project 6 -->
-        <div class="project-card">
-          <h3>Conaxo Business E-Commerce</h3>
-          <p>High-end e-commerce solution configured with Riverpod, supporting dynamic physical/virtual product inventories, localized checkout services, offline cart sync, and secure transactional layers.</p>
+        <!-- App 5: VVT 25 -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-vvt">25</div>
+            <div>
+              <h3>VVT 25</h3>
+              <p class="app-type">Coaching Institute App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/vvt-25/id6670788326" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.vvt25" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 6: Duddupudi -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-edu">DU</div>
+            <div>
+              <h3>Duddupudi</h3>
+              <p class="app-type">Coaching Institute App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/duddupudi/id6504514580" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.duddupudi" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 7: PEM School of Excellence -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-school">PEM</div>
+            <div>
+              <h3>PEM School of Excellence</h3>
+              <p class="app-type">School App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/pem-school-of-excellence/id6503923230" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.pem" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 8: Sri RV Pre University -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-edu">SRV</div>
+            <div>
+              <h3>Sri RV Pre University</h3>
+              <p class="app-type">College App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/sri-rv-pre-university/id6504781745" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.srirv" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 9: DIPUC -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-edu">DI</div>
+            <div>
+              <h3>DIPUC</h3>
+              <p class="app-type">College App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/dipuc/id6504514336" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.dipuc" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 10: Dr Varun's NEET Campus -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-med">DV</div>
+            <div>
+              <h3>Dr Varun's NEET Campus</h3>
+              <p class="app-type">Coaching Institute App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/dr-varuns-neet-campus/id6503922880" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.drvarun" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 11: Pon Vidyashram -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-school">PV</div>
+            <div>
+              <h3>Pon Vidyashram</h3>
+              <p class="app-type">School App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/pon-vidyashram/id6503923485" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.ponvidyashram" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 12: VBC Kolapakkam -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-school">VBC</div>
+            <div>
+              <h3>VBC Kolapakkam</h3>
+              <p class="app-type">School App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/vbc-kolapakkam/id6503923366" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.vbckolapakkam" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 13: Accomplish Academy -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-edu">AA</div>
+            <div>
+              <h3>Accomplish Academy</h3>
+              <p class="app-type">Coaching Institute App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/accomplish-academy/id6503923722" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.accomplish" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 14: Senthil Public School -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-school">SPS</div>
+            <div>
+              <h3>Senthil Public School</h3>
+              <p class="app-type">School App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/senthil-public-school/id6504514681" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.senthil" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
+        </div>
+
+        <!-- App 15: Adarsh Group of Institutions -->
+        <div class="app-card">
+          <div class="app-main-info">
+            <div class="app-avatar bg-school">AGI</div>
+            <div>
+              <h3>Adarsh Group of Institutions</h3>
+              <p class="app-type">School App</p>
+            </div>
+          </div>
+          <div class="app-store-links">
+            <a href="https://apps.apple.com/in/app/adarsh-group-of-institutions/id6503923624" target="_blank" rel="noopener noreferrer" class="store-badge ios">iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.vvt.adarsh" target="_blank" rel="noopener noreferrer" class="store-badge android">Android</a>
+          </div>
         </div>
 
       </div>
     </section>
 
-    <!-- Education, Certs, Languages -->
-    <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; margin-top: 3rem;">
+    <!-- Education and More -->
+    <section id="education">
+      <h2 class="section-title">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+        Education and More
+      </h2>
       
-      <!-- Education -->
-      <section id="education" style="border-bottom: 1px solid var(--border); padding-bottom: 3rem;">
-        <h2 class="section-title">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
-          Education
-        </h2>
-        <div class="timeline">
-          <div class="timeline-item" style="margin-bottom: 1.5rem;">
-            <div class="timeline-marker"></div>
-            <div class="timeline-header">
-              <div>
-                <span class="role-title">Master in Computer Application (MCA)</span>
-                <span class="company-name">@ Rajiv Gandhi Proudyogiki Vishwavidyalaya</span>
+      <div class="education-certs-grid">
+        <!-- Education -->
+        <div>
+          <h3 class="subsection-title">Education</h3>
+          <div class="timeline compact-timeline">
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-header">
+                <div>
+                  <span class="role-title">MCA</span>
+                  <span class="company-name">Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal</span>
+                </div>
+                <span class="timeline-date">2011 – 2014</span>
               </div>
-              <span class="timeline-date">2011 – 2014</span>
             </div>
-            <div class="timeline-body">
-              <span>Bhopal, Madhya Pradesh, India</span>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-header">
-              <div>
-                <span class="role-title">Bachelor of Computer Application (BCA)</span>
-                <span class="company-name">@ Jiwaji University</span>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-header">
+                <div>
+                  <span class="role-title">BCA</span>
+                  <span class="company-name">Jiwaji University, Gwalior</span>
+                </div>
+                <span class="timeline-date">2007 – 2010</span>
               </div>
-              <span class="timeline-date">2008 – 2010</span>
             </div>
-            <div class="timeline-body">
-              <span>Gwalior, Madhya Pradesh, India</span>
+
+          </div>
+        </div>
+
+        <!-- Certifications & Languages -->
+        <div>
+          <h3 class="subsection-title">Certifications</h3>
+          <div class="certs-grid">
+            
+            <div class="cert-card">
+              <div class="cert-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+              </div>
+              <div class="cert-info">
+                <h4>Flutter Developer Certification (TestDome)</h4>
+                <a href="https://www.testdome.com/certificates/673b7e51fde243d6a5c54b04453170e9" target="_blank" rel="noopener noreferrer" class="cert-verify-link">
+                  Verification Link →
+                </a>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+              </div>
+              <div class="cert-info">
+                <h4>Sun Certified Java Programmer (SCJP)</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="languages-block">
+            <h3 class="languages-title">Languages</h3>
+            <div class="skills-tags">
+              <span class="tag language-tag">English (Fluent)</span>
+              <span class="tag language-tag">Hindi (Native)</span>
+              <span class="tag language-tag">Urdu (Native)</span>
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- Certifications -->
-      <section id="certs" style="border-bottom: 1px solid var(--border); padding-bottom: 3rem;">
-        <h2 class="section-title">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
-          Certifications
-        </h2>
-        <div class="certs-grid">
-          <div class="cert-card">
-            <div class="cert-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
-            </div>
-            <div class="cert-info">
-              <h4>SCJP - Sun Certified Java Programmer</h4>
-              <p>Sun Microsystems / Oracle Corporation</p>
-            </div>
-          </div>
-          <div class="cert-card">
-            <div class="cert-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
-            </div>
-            <div class="cert-info">
-              <h4>Flutter Developer Certification</h4>
-              <p>TestDome | <a href="https://www.testdome.com/certificates/673b7e51fde243d6a5c54b04453170e9" target="_blank" rel="noopener noreferrer">Credential Verify</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Languages -->
-      <section id="languages">
-        <h2 class="section-title">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-          Languages
-        </h2>
-        <div class="skills-tags">
-          <span class="tag" style="padding: 0.5rem 1rem; font-size: 0.9rem;">English (Fluent)</span>
-          <span class="tag" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Hindi (Native)</span>
-          <span class="tag" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Urdu (Native)</span>
-        </div>
-      </section>
-
-    </div>
+      </div>
+    </section>
 
   </main>
 
-  <footer>
-    <p>&copy; 2026 Mohammad Rijwan Khan. All Rights Reserved. Built with HTML, CSS, and JS.</p>
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="brand-text">Mohammad Rijwan Khan</span>
+        <p>Senior Flutter Developer | iOS · Android · Web | AI-Assisted Development</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Back to Top ↑</a>
+        <a href="Mohammad Rijwan - Resume.pdf" download="Mohammad Rijwan - Resume.pdf">Download PDF</a>
+        <a href="mailto:mohammad.rijwan@gmail.com">Email</a>
+        <a href="https://github.com/MohammadRijwan" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Mohammad Rijwan Khan. Senior Flutter Developer.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>

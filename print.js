@@ -15,7 +15,7 @@ const path = require('path');
     
     console.log('Generating PDF...');
     await page.pdf({
-      path: 'Mohammad_Rijwan_Khan_Resume.pdf',
+      path: 'Mohammad Rijwan - Resume.pdf',
       format: 'A4',
       printBackground: true,
       displayHeaderFooter: false

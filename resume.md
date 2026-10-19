@@ -1,89 +1,89 @@
 # Mohammad Rijwan Khan
-**Lead & Senior Flutter Developer**  
-📧 mohammad.rijwan@gmail.com | 📞 +91 8878519593 | 📍 Gwalior, Madhya Pradesh, India  
-💻 [GitHub](https://github.com/MohammadRijwan)
+**Senior Flutter Developer | iOS · Android · Web | AI-Assisted Development**  
+📧 [mohammad.rijwan@gmail.com](mailto:mohammad.rijwan@gmail.com) | 📞 [+91 8878519593](tel:+918878519593) | 📍 Gwalior, Madhya Pradesh, India  
+💻 [github.com/MohammadRijwan](https://github.com/MohammadRijwan)
 
 ---
 
-## Executive Summary
-Results-driven **Lead & Senior Mobile Application Engineer** with **8+ years of experience** in software development, specializing in the **Flutter & Dart** ecosystem. Proven track record of architecting, developing, and deploying high-performance cross-platform applications (iOS/Android) for global clients. Expert in clean architecture, advanced state management (Bloc, Riverpod), AI/ML integration (Gemini, TensorFlow, ML Kit), and offline-first databases. Strong technical leader experienced in mentoring agile teams, optimizing memory footprint, and establishing CI/CD pipelines to accelerate delivery cycles.
+## Summary
+Flutter developer with nearly 7 years of experience building iOS, Android and Web apps. I built Backgammon Galaxy, an online backgammon app with 100,000+ downloads on Google Play, and TopAll, a NEET/JEE prep app with 10,000+ downloads. I build scalable Flutter apps using AI coding agents (Claude, Cursor, Antigravity) and structured prompting, and I have led a team of 4 developers. In total I have published 14 apps on the App Store and Google Play.
 
 ---
 
-## Core Expertise
-*   **Frameworks & Languages:** Flutter, Dart, Java, Kotlin, Android SDK, SQL
-*   **Architecture & Design:** Clean Architecture, MVVM, SOLID Principles, Design Patterns
-*   **State Management:** Riverpod, Bloc, GetX, Provider
-*   **Databases & Local Storage:** Firebase Realtime Database, PostgreSQL, Isar DB, ObjectBox, SQLite, Secure Storage
-*   **API & Integration:** RESTful APIs, WebSockets, Payment Gateways (Google Pay, Apple Pay, Stripe), MUX Video Streaming API
-*   **Cloud & Dev Tools:** Firebase, Google Cloud Platform (GCP), AWS, Git, GitLab, Bitbucket, CI/CD (GitHub Actions, GitLab CI)
-*   **Specializations:** AI/ML Integration (Gemini LLM, OpenCV, ML Kit, TensorFlow Lite), BLE/IoT Device Integration, App Store & Play Store Deployment
+## Skills
+* **Mobile:** Flutter, Dart
+* **AI:** AI coding agents (Claude, Cursor, Antigravity) with structured prompting for building features, refactoring, code review and test generation; Gemini API, ML Kit
+* **Architecture and State:** Clean Architecture, MVVM, Bloc/Cubit, Riverpod, Provider, GetX
+* **Backend and Data:** Firebase, PostgreSQL, Isar DB, SQLite
+* **Integrations:** MUX video, Stripe, Google Pay, Apple Pay, In-App Purchases, Bluetooth (BLE), WebSockets
+* **Tools:** Git, CI/CD, App Store and Google Play releases
 
 ---
 
 ## Professional Experience
 
-### **VVT SOLUTION PVT LTD** | Lead Flutter Developer
-*Nov 2023 – Present | Chennai, India (Remote)*
-*   **Team Leadership & Architecture:** Spearhead the development of enterprise-grade cross-platform apps using Flutter & Dart. Establish clean architecture guidelines and mentor junior developers to ensure code quality.
-*   **Performance Optimization:** Scaled backend integration (Firebase & AWS microservices), reducing server round-trip latency by 25% and enhancing mobile app responsiveness.
-*   **AI Integration:** Designed and implemented an AI-Powered Intelligent Essay Grading System using NLP algorithms and Gemini API, automating grading processes and reducing evaluation turnaround time by 85%.
-*   **Scalability:** Architected and deployed an *Enterprise-Level Test Preparation Platform* for large educational institutes, serving 100,000+ active users. Integrated predictive performance analytics and machine learning models.
-*   **Offline Capability:** Built the *TopAll AI NEET/JEE Prep App*, achieving 99.9% crash-free sessions. Implemented offline caching via Isar DB, accelerating app startup and resource loading by 40%.
+### **Freelance Flutter Developer** | Backgammon Galaxy
+*Oct 2024 – Oct 2026 | Remote (Freelance)*
+* Built the Backgammon Galaxy app from scratch in Flutter, with one scalable codebase for iOS, Android and Web: an online platform to play live backgammon, chat and review matches. 100,000+ downloads on Google Play with a 4.2 rating. Links: [iOS](https://apps.apple.com/app/backgammon-galaxy-play-online/id1552085732) · [Android](https://play.google.com/store/apps/details?id=com.backgammongalaxy.app) · [Web](https://backgammongalaxy.com)
+* Worked with AI coding agents (Claude, Cursor, Antigravity) using structured prompts to build and refactor features, review code and generate tests faster, while keeping the codebase clean and scalable.
+* Added Keycloak social login, a custom XMPP chat plugin, a GNU ID / XGID board converter, Match Analysis with blunder detection, Setup and Saved Position, and Social Chat.
 
-### **BRAINIUM INFORMATION TECHNOLOGIES** | Senior Flutter Developer
+### **Lead Flutter Developer** | VVT Solution Pvt Ltd
+*Nov 2023 – Oct 2024 | Chennai, India (Contract)*
+* Built and published 14 iOS and Android apps for coaching institutes and schools.
+* Built the TopAll NEET/JEE prep app (Flutter, Firebase) with mock tests, performance charts and automatic question paper creation. Offline storage with Isar DB made startup and loading about 40% faster.
+* Led a team of 4 developers (sprint planning, code review, architecture decisions) and looked after the backend (Firebase) for a test-prep platform with 100,000+ users.
+
+### **Software Developer** | Brainium Information Technologies
 *Jun 2022 – Oct 2023 | West Bengal, India (Remote)*
-*   **UI/UX Implementation:** Engineered pixel-perfect, highly responsive custom Flutter UI components from complex Figma designs, ensuring consistent layouts across iOS and Android.
-*   **Video Streaming & Media:** Led end-to-end development of a high-performance video streaming application integrating the MUX Video API, optimizing buffering and network utilization.
-*   **Payment Integrations:** Implemented secure payment flows using Google Pay, Apple Pay, and In-App Purchases (IAP), increasing transaction completion rates by 18%.
-*   **Event Booking System:** Developed *Fantastix*, an event booking application featuring custom seat-selection layouts and real-time ticket availability synced via Firebase.
+* Built a live video streaming app using the MUX API, with data-saving options for users.
+* Added Google Pay, Apple Pay and In-App Purchases, which increased booking conversion by 18%.
+* Moved three apps from MVC to Clean Architecture with MVVM and Provider, and turned Figma and Adobe XD designs into reusable Flutter widgets.
 
-### **INVIZZO CLOUD NETWORK** | Flutter Development Specialist
-*Nov 2021 – Aug 2022 | Brazil (Remote)*
-*   **App Lifecycle Management:** Developed and solely managed 2 out of 5 high-impact Flutter applications. Managed deployment pipelines to release updates directly to the Google Play Store and Apple App Store.
-*   **E-Commerce Engineering:** Built *Conaxo Business*, an e-commerce platform supporting physical and virtual products. Configured Riverpod to maintain application state under high load and optimized network caching layers.
-*   **Clean Practices:** Championed MVVM patterns, resulting in a 30% reduction in codebase bugs and significantly improving onboarding speed for new developers.
+### **Flutter Developer (Freelance)** | Invizzo Cloud Network
+*Sep 2021 – Jun 2022 | Remote (Freelance)*
+* Built 5 customer apps from scratch and fully owned 2 of them, including Conaxo Business, an e-commerce app using Riverpod for cart and checkout.
+* Published releases to the App Store and Google Play.
 
-### **SHREE SAI INFORMATION** | Flutter Developer
-*Dec 2019 – Oct 2021 | Delhi, India (Remote)*
-*   **Medical & IoT Ecosystem:** Engineered a multi-role *Medical Device & Patient Management System* connecting Patients (via mobile app for consultations and implanted device control) with Physicians & Manufacturers (via tablet portal to monitor device telemetry, expirations, and hospital allocations under HIPAA guidelines).
-*   **Ticket Booking Ecosystem:** Developed a ticket booking and scanning application with offline validation, handling high concurrency during peak event check-ins.
-*   **Plugin Development:** Created custom native-bridged Flutter plugins (MethodChannels) for device-specific background tasks and hardware access.
+### **Flutter Developer** | Shree Sai Information
+*Dec 2019 – Aug 2021 | Delhi, India (Remote)*
+* Built MedTack, a medical device and patient management app (patient app plus doctor and manufacturer tablet app) following HIPAA rules.
+* Used WebSockets and Firebase Realtime Database for live seat availability in ticket booking apps.
 
-### **NEXUS SOFTWARE SOLUTIONS** | Software Engineer (Android & Java)
-*Jan 2018 – Nov 2019 | Bhopal, India (Remote)*
-*   **Native Development:** Developed native Android applications using Java, Android SDK, and SQLite.
-*   **Migration & Modernization:** Assisted in migrating legacy Java applications to Kotlin and MVVM architecture, resulting in a 15% reduction in app package size and 25% fewer runtime crashes.
-*   **API Integration:** Integrated RESTful Web Services, push notifications, and local caching layers to support offline usability.
+### **Assistant Accountant** | Indian Army
+*Feb 2015 – Dec 2019*
+* Maintained accurate financial ledgers, auditing compliance, inventory accounting, and budget reporting.
 
 ---
 
-## Key Projects Showcase
-
-*   **AI-Powered Essay Grader:** AI-driven natural language evaluation system. Integrates Google Gemini API and NLP algorithms to evaluate essays and provide instant, objective grading feedback.
-*   **TopAll AI - Test Prep App:** Trusted exam prep app for over 100,000 NEET/JEE aspirants. Featuring offline mock exams, real-time rank lists, and performance analytics.
-    *   [Play Store Link](https://play.google.com/store/apps/details?id=com.topall.ai) | [App Store Link](https://apps.apple.com/in/app/topall-ai-neet-jee-prep-app/id6747238960)
-*   **VVT Coaching - Test Prep Platform:** Enterprise-grade coaching and test preparation ecosystem designed for large educational institutes. Features advanced test generation algorithms and machine learning models for predictive performance analysis.
-    *   [Play Store Link](https://play.google.com/store/apps/details?id=com.vvt.coaching) | [App Store Link](https://apps.apple.com/in/app/vvt-coaching/id6578447265)
-*   **IoT-Enabled Medical Device & Patient Management System:** Multi-role mobile and tablet ecosystem. Mobile version allows patients to manage implanted devices and consult doctors. Tablet version allows manufacturers and physicians to monitor device status, receive expiration notifications, and track hospital allocations.
-*   **Fantastix - Event Booking:** Event management platform featuring dynamic interactive seating charts and seamless ticket booking.
-*   **Conaxo Business E-Commerce:** Next-generation retail application with global payment integration and blockchain-backed loyalty/rewards.
-
----
-
-## Education
-*   **Master in Computer Application (MCA)** | Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal (2011 – 2014)
-*   **Bachelor of Computer Application (BCA)** | Jiwaji University, Gwalior (2008 – 2010)
-
----
-
-## Certifications
-*   **SCJP (Sun Certified Java Programmer)** – Sun Microsystems
-*   **Flutter Developer Certification** – TestDome ([Verification Link](https://www.testdome.com/certificates/673b7e51fde243d6a5c54b04453170e9))
+## Published Apps (all built with Flutter)
+* **Backgammon Galaxy: Play Online** ([iOS](https://apps.apple.com/app/backgammon-galaxy-play-online/id1552085732) | [Android](https://play.google.com/store/apps/details?id=com.backgammongalaxy.app) | [Web](https://backgammongalaxy.com)) – 100,000+ downloads, 4.2 rating
+* **TopAll: AI NEET & JEE Prep** ([iOS](https://apps.apple.com/in/app/topall-ai-neet-jee-prep-app/id6747238960) | [Android](https://play.google.com/store/apps/details?id=com.topall.ai)) – 10,000+ downloads
+* **VVT Coaching** ([iOS](https://apps.apple.com/in/app/vvt-coaching/id6578447265) | [Android](https://play.google.com/store/apps/details?id=com.vvt.coaching))
+* **Yes Entrance Academy** ([iOS](https://apps.apple.com/in/app/yes-entrance-academy/id6503923067) | [Android](https://play.google.com/store/apps/details?id=com.vvt.yesentrance))
+* **VVT 25** ([iOS](https://apps.apple.com/in/app/vvt-25/id6670788326) | [Android](https://play.google.com/store/apps/details?id=com.vvt.vvt25))
+* **Duddupudi** ([iOS](https://apps.apple.com/in/app/duddupudi/id6504514580) | [Android](https://play.google.com/store/apps/details?id=com.vvt.duddupudi))
+* **PEM School of Excellence** ([iOS](https://apps.apple.com/in/app/pem-school-of-excellence/id6503923230) | [Android](https://play.google.com/store/apps/details?id=com.vvt.pem))
+* **Sri RV Pre University** ([iOS](https://apps.apple.com/in/app/sri-rv-pre-university/id6504781745) | [Android](https://play.google.com/store/apps/details?id=com.vvt.srirv))
+* **DIPUC** ([iOS](https://apps.apple.com/in/app/dipuc/id6504514336) | [Android](https://play.google.com/store/apps/details?id=com.vvt.dipuc))
+* **Dr Varun's NEET Campus** ([iOS](https://apps.apple.com/in/app/dr-varuns-neet-campus/id6503922880) | [Android](https://play.google.com/store/apps/details?id=com.vvt.drvarun))
+* **Pon Vidyashram** ([iOS](https://apps.apple.com/in/app/pon-vidyashram/id6503923485) | [Android](https://play.google.com/store/apps/details?id=com.vvt.ponvidyashram))
+* **VBC Kolapakkam** ([iOS](https://apps.apple.com/in/app/vbc-kolapakkam/id6503923366) | [Android](https://play.google.com/store/apps/details?id=com.vvt.vbckolapakkam))
+* **Accomplish Academy** ([iOS](https://apps.apple.com/in/app/accomplish-academy/id6503923722) | [Android](https://play.google.com/store/apps/details?id=com.vvt.accomplish))
+* **Senthil Public School** ([iOS](https://apps.apple.com/in/app/senthil-public-school/id6504514681) | [Android](https://play.google.com/store/apps/details?id=com.vvt.senthil))
+* **Adarsh Group of Institutions** ([iOS](https://apps.apple.com/in/app/adarsh-group-of-institutions/id6503923624) | [Android](https://play.google.com/store/apps/details?id=com.vvt.adarsh))
 
 ---
 
-## Languages
-*   **English:** Professional Working Proficiency
-*   **Hindi:** Native or Bilingual Proficiency
-*   **Urdu:** Native or Bilingual Proficiency
+## Education and More
+* **MCA (Master in Computer Application)** | Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal (2011–2014)
+* **BCA (Bachelor of Computer Application)** | Jiwaji University, Gwalior (2007–2010)
+
+### Certifications
+* **Flutter Developer Certification** – TestDome ([Verification Link](https://www.testdome.com/certificates/673b7e51fde243d6a5c54b04453170e9))
+* **Sun Certified Java Programmer (SCJP)** – Sun Microsystems / Oracle Corporation
+
+### Languages
+* **English:** Fluent
+* **Hindi:** Native
+* **Urdu:** Native
